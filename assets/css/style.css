@@ -20546,8 +20546,8 @@ only screen and (max-width: 767px) {
   .slider-section {
     height: auto;
     display: block;
-    padding-top: 16%;
-    margin-top: 32%;
+    padding-top: 14%;
+    margin-top: 20%;
     ;
   }
 }
