@@ -19840,17 +19840,17 @@ only screen and (max-width: 767px) {
 }
 
 .mobile-sign-in-up ul li a {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 600;
   text-transform: capitalize;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  height: 45px;
+  height: auto;
   line-height: 41px;
-  padding: 0 30px;
+  padding: 25px 30px 25px 25px;
   border: 1px solid #0C6180;
   border-radius: 5px;
   background-color: #0C6180;
