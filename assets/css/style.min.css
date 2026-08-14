@@ -18833,6 +18833,133 @@ only screen and (max-width: 575px) {
     color: #309255
 }
 
+.header-top-mobile {
+    background-color: #002638
+}
+
+.header-top-mobile .header-top-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px 0
+}
+
+.header-top-mobile .header-top-mobile-contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.header-top-mobile .header-top-mobile-contact p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.header-top-mobile .header-top-mobile-contact p+p {
+    margin-left: 25px
+}
+
+.header-top-mobile .header-top-mobile-contact p a {
+    color: #fff
+}
+
+.header-top-mobile .header-top-mobile-contact p a:hover {
+    color: #0C6180
+}
+
+.header-top-mobile .header-top-mobile-contact p i {
+    color: #0C6180;
+    font-size: 18px;
+    padding-right: 10px
+}
+
+.header-top-mobile .header-top-mobile-social .social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.header-top-mobile .header-top-mobile-social .social li {
+    margin-right: 12px
+}
+
+.header-top-mobile .header-top-mobile-social .social li:last-child {
+    margin-right: 0
+}
+
+.header-top-mobile .header-top-mobile-social .social li a {
+    font-size: 18px;
+    color: #fff
+}
+
+.header-top-mobile .header-top-mobile-social .social li a:hover {
+    color: #0C6180
+}
+
+@media only screen and (max-width: 767px) {
+    .header-top-mobile .header-top-mobile-contact p {
+        font-size: 13px
+    }
+    .header-top-mobile .header-top-mobile-contact p+p {
+        margin-left: 15px
+    }
+    .header-top-mobile .header-top-mobile-contact p i {
+        font-size: 16px;
+        padding-right: 8px
+    }
+    .header-top-mobile .header-top-mobile-social .social li {
+        margin-right: 10px
+    }
+    .header-top-mobile .header-top-mobile-social .social li a {
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-top-mobile .header-top-mobile-contact p {
+        font-size: 12px
+    }
+    .header-top-mobile .header-top-mobile-contact p+p {
+        margin-left: 10px
+    }
+    .header-top-mobile .header-top-mobile-contact p i {
+        font-size: 14px;
+        padding-right: 5px
+    }
+    .header-top-mobile .header-top-mobile-social .social li {
+        margin-right: 8px
+    }
+    .header-top-mobile .header-top-mobile-social .social li a {
+        font-size: 14px
+    }
+}
+
 .header-main-wrapper {
     display: -webkit-box;
     display: -webkit-flex;

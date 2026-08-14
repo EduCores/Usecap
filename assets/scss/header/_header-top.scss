@@ -149,4 +149,130 @@
     }
 }
 
+// Header Top Mobile
+.header-top-mobile{
+    background-color: $dark;
+
+    & .header-top-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0;
+    }
+
+    & .header-top-mobile-contact{
+        display: flex;
+        align-items: center;
+
+        & p{
+            font-size: 14px;
+            color: $white;
+            font-weight: 400;
+            margin-bottom: 0;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+
+            & + p{
+                margin-left: 25px;
+            }
+
+            & a{
+                color: $white;
+
+                &:hover{
+                    color: $primary;
+                }
+            }
+
+            & i{
+                color: $primary;
+                font-size: 18px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+    & .header-top-mobile-social{
+        & .social{
+            display: flex;
+
+            & li{
+                margin-right: 12px;
+
+                &:last-child{
+                    margin-right: 0;
+                }
+
+                & a{
+                    font-size: 18px;
+                    color: $white;
+
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$large-mobile}{
+        & .header-top-mobile-contact{
+            & p{
+                font-size: 13px;
+
+                & + p{
+                    margin-left: 15px;
+                }
+
+                & i{
+                    font-size: 16px;
+                    padding-right: 8px;
+                }
+            }
+        }
+
+        & .header-top-mobile-social{
+            & .social{
+                & li{
+                    margin-right: 10px;
+                }
+
+                & a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    @media #{$small-mobile}{
+        & .header-top-mobile-contact{
+            & p{
+                font-size: 12px;
+
+                & + p{
+                    margin-left: 10px;
+                }
+
+                & i{
+                    font-size: 14px;
+                    padding-right: 5px;
+                }
+            }
+        }
+
+        & .header-top-mobile-social{
+            & .social{
+                & li{
+                    margin-right: 8px;
+                }
+
+                & a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
 
