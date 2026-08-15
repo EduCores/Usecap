@@ -19113,7 +19113,7 @@ only screen and (max-width: 575px) {
 }
 
 .header-top-mobile .header-top-mobile-contact p {
-  font-size: 14px;
+  font-size: calc(14px * 1.15);
   color: #fff;
   font-weight: 500;
   margin-bottom: 0;
@@ -19789,7 +19789,7 @@ only screen and (max-width: 767px) {
 }
 
 .mobile-top p {
-  font-size: 17px;
+  font-size: calc(17px * 1.15);
   color: #002638;
   font-weight: 400;
   margin-bottom: 0;
@@ -19810,7 +19810,7 @@ only screen and (max-width: 767px) {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .mobile-top p {
-    font-size: 16px;
+    font-size: calc(16px * 1.15);
   }
 }
 
@@ -19828,13 +19828,13 @@ only screen and (max-width: 767px) {
 
 .mobile-top p i {
   color: #0C6180;
-  font-size: 22px;
+  font-size: calc(22px * 1.15);
   padding-right: 15px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .mobile-top p i {
-    font-size: 18px;
+    font-size: calc(18px * 1.15);
     padding-right: 10px;
   }
 }
