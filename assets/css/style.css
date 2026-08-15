@@ -19142,7 +19142,7 @@ only screen and (max-width: 575px) {
 
 .header-top-mobile .header-top-mobile-contact p i {
   color: #1a7ea2;
-  font-size: 20px;
+  font-size: calc(20px * 1.15);
   padding-right: 6px;
 }
 
@@ -19152,7 +19152,7 @@ only screen and (max-width: 575px) {
   }
 
   .header-top-mobile .header-top-mobile-contact p {
-    font-size: 14px;
+    font-size: calc(14px * 1.15);
   }
 
   .header-top-mobile .header-top-mobile-contact p+p {
@@ -19160,7 +19160,7 @@ only screen and (max-width: 575px) {
   }
 
   .header-top-mobile .header-top-mobile-contact p i {
-    font-size: 20px;
+    font-size: calc(20px * 1.15);
     padding-right: 5px;
   }
 }
@@ -19171,7 +19171,7 @@ only screen and (max-width: 575px) {
   }
 
   .header-top-mobile .header-top-mobile-contact p {
-    font-size: 14px;
+    font-size: calc(14px * 1.15);
   }
 
   .header-top-mobile .header-top-mobile-contact p+p {
@@ -19179,7 +19179,7 @@ only screen and (max-width: 575px) {
   }
 
   .header-top-mobile .header-top-mobile-contact p i {
-    font-size: 20px;
+    font-size: calc(20px * 1.15);
     padding-right: 5px;
   }
 
