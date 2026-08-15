@@ -18926,16 +18926,20 @@ only screen and (max-width: 575px) {
     .header-top-mobile .header-top-mobile-contact p {
         font-size: 13px
     }
+
     .header-top-mobile .header-top-mobile-contact p+p {
         margin-left: 15px
     }
+
     .header-top-mobile .header-top-mobile-contact p i {
         font-size: 16px;
         padding-right: 8px
     }
+
     .header-top-mobile .header-top-mobile-social .social li {
         margin-right: 10px
     }
+
     .header-top-mobile .header-top-mobile-social .social li a {
         font-size: 16px
     }
@@ -18945,16 +18949,20 @@ only screen and (max-width: 575px) {
     .header-top-mobile .header-top-mobile-contact p {
         font-size: 12px
     }
+
     .header-top-mobile .header-top-mobile-contact p+p {
         margin-left: 10px
     }
+
     .header-top-mobile .header-top-mobile-contact p i {
         font-size: 14px;
         padding-right: 5px
     }
+
     .header-top-mobile .header-top-mobile-social .social li {
         margin-right: 8px
     }
+
     .header-top-mobile .header-top-mobile-social .social li a {
         font-size: 14px
     }
@@ -29727,7 +29735,7 @@ only screen and (max-width: 767px) {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400
 }
 

@@ -19618,12 +19618,39 @@ only screen and (max-width: 767px) {
   border-radius: 10px;
   background-color: #0C6180;
   color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .header-sign-in-up ul li a.btn-cta:hover {
   background-color: #002638;
   border-color: #002638;
   color: #fff;
+}
+
+.header-sign-in-up ul li a.btn-cta::before {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  -webkit-transition: 0.4s all linear;
+  -o-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+}
+
+.header-sign-in-up ul li a.btn-cta:hover::before {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -ms-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  background-color: #0C6180;
 }
 
 .header-toggle .menu-toggle {
@@ -31432,6 +31459,6 @@ img[src*="logo_usecap_color.png"] {
   }
 
   .footer-widget .widget-link li a {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 }
